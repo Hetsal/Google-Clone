@@ -1,0 +1,67 @@
+
+.Google-header {
+height: 100px;
+padding: 20px;
+font-size: 30px;
+box-sizing: border-box;
+position: relative;
+}  
+.Google-header .menu{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  margin: 0 20px 0 0;
+}
+.Google-header .menu a{
+  margin: 0 20px 0 0;
+}
+.Google-header .menu .material-icons{
+  font-size: 30px;
+}
+
+
+.Google-logo {
+  margin: 200px auto 0;
+}
+
+.Google-logo-logo {
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Google-logo-logo img{
+  height: 600px;
+}
+
+.Google-logo-search{
+  width: 1500px;
+  position: relative;
+  margin: auto;
+}
+.Google-logo-search input{
+  width: 1000px;
+  height: 90px;
+  padding: 5px 70px;
+  border: 1 solid lightgray;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 30px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.Google-logo-search span{
+  position: absolute;
+  top: 30px;
+  left: 280px;
+  font-size: 40px;
+}
+
+.Google-logo-search .material-icons:last-child{
+  display: flex;
+  justify-content: flex-end;
+  right: 300px;
+}
